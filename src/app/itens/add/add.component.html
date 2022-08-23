@@ -1,0 +1,31 @@
+<div class="container">
+  <legend>Add um novo livro</legend>
+  <div class="mb-3">
+    <label for="txtItenName" class="form-label">Nome</label>
+    <input
+      type="text"
+      [(ngModel)]="itenForm.name"
+      class="form-control"
+      id="txtItenName"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="txtAuthor" class="form-label">Autor</label>
+    <input
+      type="text"
+      [(ngModel)]="itenForm.author"
+      class="form-control"
+      id="txtAuthor"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="txtCost" class="form-label">Preço</label>
+    <input
+      type="number"
+      [(ngModel)]="itenForm.cost"
+      class="form-control"
+      id="txtCost"
+    />
+  </div>
+  <button type="button" class="btn btn-dark" (click)="save()">Criar</button>
+</div>

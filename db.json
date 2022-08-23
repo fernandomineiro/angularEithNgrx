@@ -1,0 +1,16 @@
+{
+  "itens": [
+    {
+      "id": 1,
+      "name": "o amor é lindo",
+      "author": "Júlia lemos",
+      "cost": 530
+    },
+    {
+      "id": 2,
+      "name": "copa do mundo 2022",
+      "author": "Renato Dias",
+      "cost": 360
+    }
+  ]
+}
